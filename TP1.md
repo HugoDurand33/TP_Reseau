@@ -84,7 +84,7 @@ commande : ipconfig
 
 commande : ping 10.10.10.250
 
-**🌞** Déterminer l'adresse MAC de votre correspondant
+*🌞* Déterminer l'adresse MAC de votre correspondant
 
 commande : arp -a
 
