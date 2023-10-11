@@ -74,4 +74,21 @@ Interface : 10.33.48.99 --- 0x8
 
 🌞 Modifiez l'IP des deux machines pour qu'elles soient dans le même réseau
 
-```parametre > reseau et internet > Wi-fi > Attribution d'adresse IP```
+```parametre > reseau et internet > Ethernet > Attribution d'adresse IP```
+
+🌞 Vérifier à l'aide d'une commande que votre IP a bien été changée
+
+commande : ipconfig
+
+🌞 Vérifier que les deux machines se joignent
+
+commande : ping 10.10.10.250
+
+**🌞** Déterminer l'adresse MAC de votre correspondant
+
+commande : arp -a
+
+    adresse MAC : 04-7C-16-AC-F9-FA
+
+### 4. Petit chat privé
+
