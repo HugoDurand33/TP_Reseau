@@ -64,3 +64,14 @@ Interface : 10.33.48.99 --- 0x8
 
 🌞 Utilisez l'interface graphique de votre OS pour changer d'adresse IP :
 
+```parametre > reseau et internet > Wi-fi > Attribution d'adresse IP```
+
+🌞 Il est possible que vous perdiez l'accès internet. Que ce soit le cas ou non, expliquez pourquoi c'est possible de perdre son accès internet en faisant cette opération.
+
+    car on a la même adresse IP qu'une autre personne
+
+## II. Exploration locale en duo
+
+🌞 Modifiez l'IP des deux machines pour qu'elles soient dans le même réseau
+
+```parametre > reseau et internet > Wi-fi > Attribution d'adresse IP```
