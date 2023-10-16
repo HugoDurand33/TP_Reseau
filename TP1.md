@@ -98,41 +98,43 @@ commande : arp -a
 
 ### 1. DHCP
 
-````ipconfig /all``
+🌞Exploration du DHCP, depuis votre PC
 
-Carte réseau sans fil Wi-Fi :
+ ```ipconfig /all```
 
-   Suffixe DNS propre à la connexion. . . :
-   Description. . . . . . . . . . . . . . : Killer(R) Wi-Fi 6E AX1675i 160MHz Wireless Network Adapter (211NGW)
+    Carte réseau sans fil Wi-Fi :
 
-   Adresse physique . . . . . . . . . . . : 8C-F8-C5-0E-69-C4
-   
-   DHCP activé. . . . . . . . . . . . . . : Oui
+    Suffixe DNS propre à la connexion. . . :
+    Description. . . . . . . . . . . . . . : Killer(R) Wi-Fi 6E AX1675i 160MHz Wireless Network Adapter (211NGW)
 
-   Configuration automatique activée. . . : Oui
+    Adresse physique . . . . . . . . . . . : 8C-F8-C5-0E-69-C4
+    
+    DHCP activé. . . . . . . . . . . . . . : Oui
 
-   Adresse IPv6 de liaison locale. . . . .: fe80::b17b:a405:4c15:e394%8(préféré)
+    Configuration automatique activée. . . : Oui
 
-   Adresse IPv4. . . . . . . . . . . . . .: 10.33.48.99(préféré)
+    Adresse IPv6 de liaison locale. . . . .: fe80::b17b:a405:4c15:e394%8(préféré)
 
-   Masque de sous-réseau. . . . . . . . . : 255.255.252.0
+    Adresse IPv4. . . . . . . . . . . . . .: 10.33.48.99(préféré)
 
-   Bail obtenu. . . . . . . . . . . . . . : lundi 16 octobre 2023 08:50:52
+    Masque de sous-réseau. . . . . . . . . : 255.255.252.0
 
-   Bail expirant. . . . . . . . . . . . . : mardi 17 octobre 2023 08:50:52
+    Bail obtenu. . . . . . . . . . . . . . : lundi 16 octobre 2023 08:50:52
 
-   Passerelle par défaut. . . . . . . . . : 10.33.51.254
+    Bail expirant. . . . . . . . . . . . . : mardi 17 octobre 2023 08:50:52
 
-   Serveur DHCP . . . . . . . . . . . . . : 10.33.51.254
+    Passerelle par défaut. . . . . . . . . : 10.33.51.254
 
-   IAID DHCPv6 . . . . . . . . . . . : 109902021
+    Serveur DHCP . . . . . . . . . . . . . : 10.33.51.254
 
-   DUID de client DHCPv6. . . . . . . . : 00-01-00-01-2B-F8-FF-74-00-E0-4C-68-BF-96
+    IAID DHCPv6 . . . . . . . . . . . : 109902021
 
-   Serveurs DNS. . .  . . . . . . . . . . : 10.33.10.2
+    DUID de client DHCPv6. . . . . . . . : 00-01-00-01-2B-F8-FF-74-00-E0-4C-68-BF-96
 
-                                       8.8.8.8
+    Serveurs DNS. . .  . . . . . . . . . . : 10.33.10.2
 
-   NetBIOS sur Tcpip. . . . . . . . . . . : Activé
+                                        8.8.8.8
 
-   
+    NetBIOS sur Tcpip. . . . . . . . . . . : Activé
+
+
