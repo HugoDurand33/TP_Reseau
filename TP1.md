@@ -137,4 +137,54 @@ commande : arp -a
 
     NetBIOS sur Tcpip. . . . . . . . . . . : Activé
 
+### 2. DNS
+
+🌞** Trouver l'adresse IP du serveur DNS que connaît votre ordinateur**
+
+```ipconfig /all```
+
+    Serveurs DNS. . .  . . . . . . . . . . : 10.33.10.2
+    
+🌞 Utiliser, en ligne de commande l'outil nslookup (Windows, MacOS) ou dig (GNU/Linux, MacOS) pour faire des requêtes DNS à la main
+
+```nslookup google.com 8.8.8.8```
+
+    Serveur :   dns.google
+    Address:  8.8.8.8
+
+    Réponse ne faisant pas autorité :
+    Nom :    google.com
+    Addresses:  2a00:1450:4007:818::200e
+            142.250.179.110
+
+```nslookup ynov.com 8.8.8.8```
+
+    Serveur :   dns.google
+    Address:  8.8.8.8
+
+    Réponse ne faisant pas autorité :
+    Nom :    ynov.com
+    Addresses:  2606:4700:20::ac43:4ae2
+            2606:4700:20::681a:be9
+            2606:4700:20::681a:ae9
+            172.67.74.226
+            104.26.11.233
+            104.26.10.233
+
+``nslookup 231.34.113.12 8.8.8.8``
+
+    Serveur :   dns.google
+    Address:  8.8.8.8
+
+    *** dns.google ne parvient pas à trouver 231.34.113.12 : Non-existent domain
+
+``nslookup 78.34.2.17 8.8.8.8``
+
+    Serveur :   dns.google
+    Address:  8.8.8.8
+
+    Nom :    cable-78-34-2-17.nc.de
+    Address:  78.34.2.17
+
+la commande cherche le nom du domaine qui a l'IP mise dans la commande
 
