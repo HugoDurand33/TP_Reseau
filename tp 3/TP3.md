@@ -8,6 +8,11 @@
 
 ```
 [hugo@localhost ~]$ ping 10.3.1.11
+PING 10.3.1.11 (10.3.1.11) 56(84) bytes of data.
+64 bytes from 10.3.1.11: icmp_seq=1 ttl=64 time=5.92 ms
+64 bytes from 10.3.1.11: icmp_seq=2 ttl=64 time=3.10 ms
+64 bytes from 10.3.1.11: icmp_seq=3 ttl=64 time=3.69 ms
+64 bytes from 10.3.1.11: icmp_seq=4 ttl=64 time=6.01 ms
 ```
 
 arp machine john :
