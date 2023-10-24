@@ -26,10 +26,14 @@ arp machine marcel :
 10.3.1.11 dev enp0s3 lladdr ⭐ 08:00:27:c8:23:35⭐  REACHABLE
 ```
 
+une commande pour voir la MAC de marcel dans la table ARP de john :
+
 ```
 [hugo@localhost ~]$ ip neigh show 10.3.1.11
 10.3.1.11 dev enp0s3 lladdr 08:00:27:c8:23:35 STALE
 ```
+
+et une commande pour afficher la MAC de marcel, depuis marcel :
 
 ```
 [hugo@localhost ~]$ ip a
