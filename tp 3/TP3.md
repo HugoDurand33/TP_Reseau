@@ -15,7 +15,7 @@ PING 10.3.1.11 (10.3.1.11) 56(84) bytes of data.
 64 bytes from 10.3.1.11: icmp_seq=4 ttl=64 time=6.01 ms
 ```
 
-arp machine john :
+arp machine john : 
 
 ```
 [hugo@localhost ~]$ ip neigh show
@@ -55,6 +55,12 @@ et une commande pour afficher la MAC de marcel, depuis marcel :
     inet6 fe80::a00:27ff:fe53:869e/64 scope link
        valid_lft forever preferred_lft forever
 ```
+### 2. Analyse de trames
 
+🌞Analyse de trames
+
+#### dossier wireshark : arp2.pcapng
+
+## II. Routage
 
 
