@@ -314,5 +314,4 @@ rtt min/avg/max/mdev = 27.813/29.147/30.742/1.209 ms
 ```
 [hugo@localhost ~]$ sudo tcpdump -i enp0s3 -w tp4_dhcp_server.pcapng not port 22
 ```
-
 #### dossier wireshark : tp4_dhcp_server.pcapng
